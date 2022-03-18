@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C18F138-C496-438E-AD81-C7E294FF2E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kast.OrchardCore.CampaignMonitor", "src\Kast.OrchardCore.CampaignMonitor\Kast.OrchardCore.CampaignMonitor.csproj", "{9BF02498-0C84-40D1-8EC9-28AD27539F30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C85AC727-39F2-474E-AF03-6E002CF18844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrchardCore.Cms.Web", "samples\OrchardCore.Cms.Web\OrchardCore.Cms.Web.csproj", "{4D45CF13-EF9C-4026-A260-500254875544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF02498-0C84-40D1-8EC9-28AD27539F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF02498-0C84-40D1-8EC9-28AD27539F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF02498-0C84-40D1-8EC9-28AD27539F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF02498-0C84-40D1-8EC9-28AD27539F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D45CF13-EF9C-4026-A260-500254875544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D45CF13-EF9C-4026-A260-500254875544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D45CF13-EF9C-4026-A260-500254875544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D45CF13-EF9C-4026-A260-500254875544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BF02498-0C84-40D1-8EC9-28AD27539F30} = {7C18F138-C496-438E-AD81-C7E294FF2E7E}
+		{4D45CF13-EF9C-4026-A260-500254875544} = {C85AC727-39F2-474E-AF03-6E002CF18844}
+	EndGlobalSection
+EndGlobal
